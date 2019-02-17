@@ -21,7 +21,7 @@ import re
 import octoprint.plugin
 import pigpio
 try:
-	import RPi.GPIO as GPIO
+	import OPi.GPIO as GPIO
 except (ImportError, RuntimeError):
 	# RuntimeError gets thrown when you import RPi.GPIO on a non Raspberry Pi
 	GPIO = None
